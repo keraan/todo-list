@@ -1,0 +1,55 @@
+html {
+    background-color: blanchedalmond;
+    height: auto;
+}
+
+body {
+    /* top: 10vh; */
+    /* display: grid;
+    grid-template-rows: 5% 90% 5%;
+    height: 100vh */
+}
+
+
+/* Header */
+#header {
+    display: grid;
+    grid-template-columns: 10% 30% 40% 10% 10%; 
+    margin-bottom: 30px;
+}
+
+#search1 {
+    grid-column: 4;
+}
+
+
+/* Main */
+#mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentCard {
+    width: 20vw;
+    text-align: center;
+    background-color: white;
+    min-height: 5vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.26);
+}
+
+#addNewSection {
+    margin-right: 0
+}
+
+.card {
+    border: 0.5px solid rgba(0, 0, 0, 0.479);
+
+}
+
+
